@@ -62,9 +62,9 @@ Note that the two t-SNE projection axes are arbitrary, and do not have an intrin
 
 ### References
 
-1. L. van der Maaten and G. Hinton (2008), "Visualizing Data using t-SNE", Journal of Machine Learning Research, 9, 2579-2605.
+1. L. van der Maaten and G. Hinton (2008), "Visualizing Data using t-SNE", Journal of Machine Learning Research, 9, 2579-2605, available via http://homepage.tudelft.nl/19j49/t-SNE.html.
 
-2. L. van der Maaten (2013), "Barnes-Hut-SNE", arXiv pre-print, 1301.3342v2.
+2. L. van der Maaten (2013), "Barnes-Hut-SNE", arXiv pre-print, 1301.3342v2, http://arxiv.org/abs/1301.3342v2.
 
 3. http://homepage.tudelft.nl/19j49/t-SNE.html (L. van der Maaten's webpage on the t-SNE algorithm).
 
