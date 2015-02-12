@@ -17,7 +17,7 @@ Laurens van der Maaten's t-SNE webpage at http://homepage.tudelft.nl/19j49/t-SNE
 
 The "Rtsne" package by Jesse Krijthe at https://github.com/jkrijthe/Rtsne [4] provides an R wrapper function for the C++ implementation of the Barnes-Hut-SNE algorithm.
 
-In R, the Rtsne package can be installed from the CRAN R package repository as usual with the command `install.packages("Rtsne")`, and loaded with `library(Rtsne)`. For an example of usage of Rtsne, see https://github.com/jkrijthe/Rtsne.
+In R, the Rtsne package can be installed from the CRAN R package repository as usual with the command `install.packages("Rtsne")`, and loaded with `library("Rtsne")`. For an example of usage of Rtsne, see https://github.com/jkrijthe/Rtsne.
 
 
 ### viSNE paper and mass cytometry data
