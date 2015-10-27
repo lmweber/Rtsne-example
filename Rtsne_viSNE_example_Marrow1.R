@@ -16,12 +16,12 @@
 #########################################################################################
 
 
-# install flowCore package (to read FCS files)
+# install flowCore package from Bioconductor (to read FCS files)
 
 source("https://bioconductor.org/biocLite.R")
 biocLite("flowCore")
 
-# install Rtsne package (R implementation of Barnes-Hut-SNE algorithm)
+# install Rtsne package from CRAN (R implementation of Barnes-Hut-SNE algorithm)
 
 install.packages("Rtsne")
 
@@ -48,7 +48,7 @@ colnames_proj <- unname(colnames(data))[c(11, 23, 10, 16, 7, 22, 14, 28, 12, 6, 
 colnames_proj  # check carefully!
 
 
-# arcsinh transformation
+# asinh transformation
 # (see Amir et al. 2013, Online Methods, "Processing of mass cytometry data")
 
 asinh_scale <- 5
@@ -85,13 +85,13 @@ set.seed(123)  # set random seed
 rtsne_out <- Rtsne(as.matrix(data), pca = FALSE, verbose = TRUE)
 
 
-# plot t-SNE projection map
+# plot 2D t-SNE projection
 
 file_plot <- paste("plots/Rtsne_viSNE_Marrow1_nsub", nsub, ".png", sep = "")
 png(file_plot, width = 900, height = 900)
 plot(rtsne_out$Y, asp = 1, pch = 20, col = "blue", 
      cex = 0.75, cex.axis = 1.25, cex.lab = 1.25, cex.main = 1.5, 
      xlab = "t-SNE dimension 1", ylab = "t-SNE dimension 2", 
-     main = "2D t-SNE projection map")
+     main = "2D t-SNE projection")
 dev.off()
 

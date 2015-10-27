@@ -43,7 +43,7 @@ The R script [Rtsne_viSNE_example_Marrow1.R](Rtsne_viSNE_example_Marrow1.R) cont
 
 * select columns containing expression values for the 13 protein markers that will be used in the Barnes-Hut-SNE calculations (see Amir et al. 2013, Supplementary Tables 1 and 2)
 
-* arcsinh transformation (see Amir et al. 2013, Online Methods, "Processing of mass cytometry data")
+* asinh transformation (see Amir et al. 2013, Online Methods, "Processing of mass cytometry data")
 
 * subsampling
 
