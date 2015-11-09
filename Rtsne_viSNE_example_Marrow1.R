@@ -48,7 +48,7 @@ colnames_proj <- unname(colnames(data))[c(11, 23, 10, 16, 7, 22, 14, 28, 12, 6, 
 colnames_proj  # check carefully!
 
 
-# asinh transformation
+# arcsinh transformation
 # (see Amir et al. 2013, Online Methods, "Processing of mass cytometry data")
 
 asinh_scale <- 5
